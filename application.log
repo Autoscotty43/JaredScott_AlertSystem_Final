@@ -2617,3 +2617,81 @@ Caused by: java.sql.SQLException: Referencing column 'medical_record_person_id' 
 2024-12-06T15:56:50.026-06:00  INFO 19496 --- [AlertNotificaionFinal] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2024-12-06T15:56:50.026-06:00  INFO 19496 --- [AlertNotificaionFinal] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2024-12-06T15:56:50.038-06:00  INFO 19496 --- [AlertNotificaionFinal] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-12-06T17:30:24.208-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] c.n.a.AlertNotificaionFinalApplication   : Starting AlertNotificaionFinalApplication using Java 21.0.2 with PID 18720 (C:\Users\jared\OneDrive\Desktop\NSCC\JaredScott_AlertNotification_ProgFinal\AlertNotificaionFinal\target\classes started by jared in C:\Users\jared\OneDrive\Desktop\NSCC\JaredScott_AlertNotification_ProgFinal\AlertNotificaionFinal)
+2024-12-06T17:30:24.210-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] c.n.a.AlertNotificaionFinalApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-12-06T17:30:24.727-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-06T17:30:24.777-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 43 ms. Found 3 JPA repository interfaces.
+2024-12-06T17:30:25.162-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-06T17:30:25.175-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-06T17:30:25.175-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-06T17:30:25.219-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-06T17:30:25.219-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 975 ms
+2024-12-06T17:30:25.334-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-06T17:30:25.393-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-06T17:30:25.423-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-06T17:30:25.675-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-06T17:30:25.700-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-06T17:30:25.979-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ce655b9
+2024-12-06T17:30:25.981-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-06T17:30:26.051-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 9.1
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-06T17:30:26.753-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-06T17:30:26.816-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-06T17:30:27.177-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 9 mappings in 'requestMappingHandlerMapping'
+2024-12-06T17:30:27.235-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2024-12-06T17:30:27.261-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2024-12-06T17:30:27.321-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2024-12-06T17:30:27.415-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-06T17:30:27.421-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] c.n.a.AlertNotificaionFinalApplication   : Started AlertNotificaionFinalApplication in 3.566 seconds (process running for 4.082)
+2024-12-06T17:30:27.423-06:00  INFO 18720 --- [AlertNotificaionFinal] [main] c.n.a.AlertNotificaionFinalApplication   : Alert Notification Final Application has started successfully.
+2024-12-06T17:30:48.616-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-06T17:30:48.617-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-12-06T17:30:48.617-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2024-12-06T17:30:48.617-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2024-12-06T17:30:48.617-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2024-12-06T17:30:48.618-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5b78a946
+2024-12-06T17:30:48.618-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4a3404fa
+2024-12-06T17:30:48.619-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2024-12-06T17:30:48.619-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-12-06T17:30:48.625-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/safetynet/childAlert?address=123%20Elm%20St", parameters={masked}
+2024-12-06T17:30:48.640-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ca.nscc.alertnotificaionfinal.controller.SafetyNetController#getChildrenByAddress(String)
+2024-12-06T17:30:48.663-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] c.n.a.controller.SafetyNetController     : Request received for childAlert endpoint with address: 123 Elm St
+2024-12-06T17:30:48.663-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] c.n.a.service.SafetyNetService           : Fetching children for address: 123 Elm St
+2024-12-06T17:30:48.839-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] c.n.a.service.SafetyNetService           : Found 1 children for address: 123 Elm St
+2024-12-06T17:30:48.839-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] c.n.a.controller.SafetyNetController     : Response for childAlert endpoint: 1 records found
+2024-12-06T17:30:48.858-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-06T17:30:48.860-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ca.nscc.alertnotificaionfinal.dto.ChildAlertDTO@129e5bfa]]
+2024-12-06T17:30:48.907-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-06T17:53:44.674-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/safetynet/firestation?stationNumber=1", parameters={masked}
+2024-12-06T17:53:44.675-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ca.nscc.alertnotificaionfinal.controller.SafetyNetController#getFireStationPersons(int)
+2024-12-06T17:53:44.677-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] c.n.a.controller.SafetyNetController     : Request received for firestation endpoint with stationNumber: 1
+2024-12-06T17:53:44.677-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] c.n.a.service.SafetyNetService           : Fetching persons for fire station number: 1
+2024-12-06T17:53:44.700-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] c.n.a.service.SafetyNetService           : Found 2 persons for fire station number: 1
+2024-12-06T17:53:44.700-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] c.n.a.controller.SafetyNetController     : Response for firestation endpoint: 2 records found
+2024-12-06T17:53:44.702-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-06T17:53:44.702-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ca.nscc.alertnotificaionfinal.dto.FireStationPersonDTO@50988ef2, ca.nscc.alertnotificaionfinal.dto. (truncated)...]
+2024-12-06T17:53:44.708-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2024-12-06T17:55:19.213-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/safetynet/firestation?stationNumber=2", parameters={masked}
+2024-12-06T17:55:19.213-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ca.nscc.alertnotificaionfinal.controller.SafetyNetController#getFireStationPersons(int)
+2024-12-06T17:55:19.214-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] c.n.a.controller.SafetyNetController     : Request received for firestation endpoint with stationNumber: 2
+2024-12-06T17:55:19.214-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] c.n.a.service.SafetyNetService           : Fetching persons for fire station number: 2
+2024-12-06T17:55:19.222-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] c.n.a.service.SafetyNetService           : Found 0 persons for fire station number: 2
+2024-12-06T17:55:19.223-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] c.n.a.controller.SafetyNetController     : Response for firestation endpoint: 0 records found
+2024-12-06T17:55:19.223-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-06T17:55:19.223-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Nothing to write: null body
+2024-12-06T17:55:19.223-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 204 NO_CONTENT
+2024-12-06T17:55:25.010-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/safetynet/firestation?stationNumber=1", parameters={masked}
+2024-12-06T17:55:25.011-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ca.nscc.alertnotificaionfinal.controller.SafetyNetController#getFireStationPersons(int)
+2024-12-06T17:55:25.011-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] c.n.a.controller.SafetyNetController     : Request received for firestation endpoint with stationNumber: 1
+2024-12-06T17:55:25.012-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] c.n.a.service.SafetyNetService           : Fetching persons for fire station number: 1
+2024-12-06T17:55:25.023-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] c.n.a.service.SafetyNetService           : Found 2 persons for fire station number: 1
+2024-12-06T17:55:25.024-06:00  INFO 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] c.n.a.controller.SafetyNetController     : Response for firestation endpoint: 2 records found
+2024-12-06T17:55:25.025-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json]
+2024-12-06T17:55:25.026-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [[ca.nscc.alertnotificaionfinal.dto.FireStationPersonDTO@7312e7d1, ca.nscc.alertnotificaionfinal.dto. (truncated)...]
+2024-12-06T17:55:25.033-06:00 DEBUG 18720 --- [AlertNotificaionFinal] [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
